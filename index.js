@@ -14,8 +14,8 @@ function wrapAdjective(flair="*") {
 
 const  Calculator = {
   
-  return function add() {
-    
+  add(a,b) {
+    return a + b
   }
   // function subtract(a,b) {
   //   return a - b
@@ -27,4 +27,3 @@ const  Calculator = {
   //   return a / b
   // }
 }
-
