@@ -8,6 +8,6 @@ function mondayWork(activity="go to the office") {
 
 function wrapAdjective(flair="*") {
  return function(adjective='special') {
-    return `You are ${flair}${adjective}${flair}`
+    return `You are ${flair}${adjective}${flair}!`
   }
 }
