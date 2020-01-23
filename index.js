@@ -12,17 +12,27 @@ function wrapAdjective(flair="*") {
   }
 }
 
-const  Calculator = {
-  add(a,b) {
-    return a + b
-  }
-  subtract(a,b) {
-     return a - b
-  }
-  multiply(a,b) {
-    return a * b 
-  }
-  divide(a,b) {
-   return a / b
-   }
+let Calculator =  {
+    add(a,b) {
+       return a + b;
+    },
+    subtract(a,b) {
+        return a - b
+    },
+    multiply(a,b) {
+        return a * b
+    },
+    divide(a,b) {
+        return a / b 
+    }
 }
+
+let actionApplyer = function(start, ray) {
+    let a = start
+  
+    for (let i = 0; i < ray.length; i++ ){
+      a = ray[i](a)
+    }
+  
+    return a
+  }
