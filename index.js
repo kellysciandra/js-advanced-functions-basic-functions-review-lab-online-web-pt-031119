@@ -17,13 +17,13 @@ const  Calculator = {
   add(a,b) {
     return a + b
   }
-  // function subtract(a,b) {
+  subtract(a,b) {
   //   return a - b
   // }
-  // function multiply(a,b) {
+  multiply(a,b) {
   //   return a * b 
   // }
-  // function divide(a,b) {
+  divide(a,b) {
   //   return a / b
   // }
 }
